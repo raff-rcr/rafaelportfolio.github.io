@@ -1,0 +1,139 @@
+body {
+		background-color: black;
+		color: white;
+		height: 100%;
+		width: 100%;
+		font-family: Arial, Helvetica, sans-serif;
+}
+.container::before {
+	content: "";
+	background: url(https://assets.nflxext.com/ffe/siteui/vlv3/935156fb-9579-4fc2-ad94-70680402b8ef/d9d32779-40ed-4420-8faa-a6f261d7370c/GB-en-20230109-popsignuptwoweeks-perspective_alpha_website_large.jpg) no-repeat center center/cover;
+	position: absolute;
+	height: 180%;
+	width: 145%;
+	opacity: 0.4;
+	z-index: -1;
+	margin: none;
+}
+.container .navbar {
+	height: 100px;
+	display: flex;
+}
+.container .navbar .left {
+	height: 100%;
+	display: flex;
+	float: left;
+}
+.container .navbar .left img{
+	height: 45px;
+	position: absolute;
+	left: 50px;
+	top: 30px;
+}
+.container .navbar .right {
+	display: flex;
+	height: 100px;
+	float: right;
+	position: absolute;
+	right: 50px;
+}
+.container .navbar .right .language {
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	padding: 7px 10px;
+	color: white;
+	background: none;
+	cursor: pointer;
+	margin-right: 15px;
+}
+.container .navbar .right .language option{
+	background: gray;
+}
+.container .navbar .right button{
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 7px 17px;
+	background: #e50914;
+	cursor: pointer;
+	outline: none;
+	border-radius: 4px;
+	border: none;
+}
+.container .navbar .right button a{
+	
+	color: white;
+}
+.container .title .content {
+	width: 950px;
+	margin: auto;
+	padding: 75px 0;
+	text-align: center;
+}
+.container .title .content h1{
+	width: 650px;
+	margin: auto;
+	font-size: 3.1rem;
+	text-align: center;
+}
+.container .title .content .cancel{
+	width: 650px;
+	margin: auto;
+	margin-top: 10px;
+	font-size: 1.6rem;
+	text-align: center;
+}
+.container .title .content form .ready{
+	font-size: 1rem;
+	margin: 18px 0;
+	text-align: center;
+}
+.container .title .content form .email{
+	width: 1000px;
+	margin: auto;
+}
+.container .title .content form .email input{
+	height: 15px;
+	width: 450px;
+	margin: auto;
+	padding: 20px;
+	font-size: 15px;
+	outline: none;
+}
+.container .title .content form .email button{
+	margin: auto;
+	height: 57px;
+	width: 180px;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	padding: 7px 17px;
+	background: #e50914;
+	cursor: pointer;
+	outline: none;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	border: none;
+	margin-left: -5px;
+	
+}
+.container .title .content form .email button:hover{
+	background-color: #f40612;
+}
+.container .title .content form .email button a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+.netbg {
+	height: 100%;
+	width: 100%;
+}
